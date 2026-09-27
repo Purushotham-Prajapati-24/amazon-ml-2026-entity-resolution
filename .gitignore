@@ -1,0 +1,25 @@
+# Competition data (get it from the organisers) and everything derived from it
+student_resource/
+data_cache/
+output/
+submissions/
+*.parquet
+*.npy
+*.pkl
+*.pt
+*.cbm
+*.tsv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+catboost_info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

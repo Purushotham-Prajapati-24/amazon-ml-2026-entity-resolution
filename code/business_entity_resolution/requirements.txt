@@ -1,0 +1,11 @@
+pandas==3.0.2
+numpy==2.4.4
+pyarrow==25.0.1
+rapidfuzz==3.14.5
+scikit-learn==1.8.0
+anyascii==0.3.3
+lightgbm==4.7.0
+# CUDA 12.8 build (needed for Blackwell / sm_120 GPUs):
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+catboost==1.2.10
